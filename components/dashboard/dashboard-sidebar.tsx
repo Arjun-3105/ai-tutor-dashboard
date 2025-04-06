@@ -31,8 +31,8 @@ export function DashboardSidebar({ className, open, setOpen }: SidebarProps) {
     {
       label: "Learning",
       icon: BookOpen,
-      href: "/dashboard/learning",
-      active: pathname === "/dashboard/learning",
+      href: "https://ai-tutor-app-7xytj56czappgh58gkmrf2w.streamlit.app/",
+      external: true,
     },
     {
       label: "Testing",
